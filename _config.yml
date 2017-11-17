@@ -4,9 +4,9 @@
 
 # Site
 title: 起今知行 | 思考者  #填写网站名，会在标签页上显示
-subtitle: 自我管理，知识管理，时间管理，阅读，语音写作，思维导图，Wiz，TimeMeter  #副标题，网站名下面
-description: 知识管理，时间管理，自我管理，阅读，语音写作，思维导图，Wiz，TimeMeter  #网站描述，便于搜索引擎用关键词检索
-author: QJzhixing  #作者
+subtitle: 天道酬勤  #副标题，网站名下面
+description: Unity,游戏开发,Lua,JavaScript,C#,Python  #网站描述，便于搜索引擎用关键词检索
+author: 李文龙  #作者
 language: zh-CN  #语言，中文
 
 # URL
@@ -71,7 +71,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: one
+theme: yillia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -80,3 +80,22 @@ deploy:
   repository: https://github.com/coder-dragon/coder-dragon.github.io.git
   branch: master
   plugins: -hexo-generator-feed
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
